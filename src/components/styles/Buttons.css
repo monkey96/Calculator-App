@@ -1,0 +1,66 @@
+#Buttons {
+    display: grid;
+    flex: 3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+button {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: solid black 1px;
+    border-radius: 50%;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button:last-child {
+    font-weight: medium;
+    grid-column: span 2;
+    width: auto;
+    border-radius: 50px;
+}
+
+.function {
+    background-color: #CCCCCC;
+    color: black;
+
+}
+
+.function:hover {
+    background-color: #DDDDDD;
+}
+
+.arithmetic {
+    background-color: #FFC04D;
+    color: white;
+
+}
+
+.arithmetic:hover {
+    background-color: #FFD780;
+}
+
+.num {
+    background-color: #333333;
+    color: white;
+
+}
+
+.num:hover {
+    background-color: #444444;
+}
+
+.big-font {
+    font-size: 50px;
+
+}
+
+.small-font {
+    font-size: 30px;
+}

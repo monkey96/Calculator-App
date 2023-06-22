@@ -1,0 +1,27 @@
+#Display {
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    min-height: 100px;
+    background-color: whitesmoke;
+    border-radius: 15%;
+}
+
+#result {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-size: 1em;
+    color: lightslategray;
+}
+
+#input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}

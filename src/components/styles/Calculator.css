@@ -1,0 +1,14 @@
+#Calculator {
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+
+    background-color : black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    min-width: 400px;
+    min-height: 600px;
+}
